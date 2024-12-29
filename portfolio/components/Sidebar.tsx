@@ -1,5 +1,4 @@
 import { useOutsideClick } from "@/hooks/use-outside-click";
-import { on } from "events";
 import React from "react";
 import Logo from "./Logo";
 import { navBarData } from "@/constants";

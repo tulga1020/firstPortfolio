@@ -5,7 +5,6 @@ import Logo from "./Logo";
 import { navBarData } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import path from "path";
 import { Menu } from "lucide-react";
 import Sidebar from "./Sidebar";
 

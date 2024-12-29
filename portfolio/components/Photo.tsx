@@ -1,10 +1,7 @@
 "use client";
-import { profile } from "console";
 import Image from "next/image";
-import React from "react";
 import hero from "../public/hero.jpg"; // Adjust the path to your image file
-import { animate, delay, easeInOut, motion } from "motion/react";
-import { init } from "next/dist/compiled/webpack/webpack";
+import { easeInOut, motion } from "motion/react";
 const Photo = () => {
   const circleColors = ["#00ff99", "#00ff9950"];
   const circleVariants = {

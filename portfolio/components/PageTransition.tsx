@@ -1,5 +1,5 @@
 "use client";
-import { AnimatePresence, easeIn, easeInOut, motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import { usePathname } from "next/navigation";
 import React from "react";
 interface Props {

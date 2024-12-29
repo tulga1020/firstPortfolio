@@ -5,7 +5,7 @@ interface Props {
   title: string;
   subtitle: string;
 }
-const Logo = ({ className, title, subtitle }: Props) => {
+const Logo = ({ title, subtitle }: Props) => {
   return (
     <div className="text-2xl group">
       <Link href="/">

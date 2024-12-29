@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
-import { Variable, Weight } from "lucide-react";
+
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
