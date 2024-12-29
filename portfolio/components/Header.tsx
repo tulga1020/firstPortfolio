@@ -13,7 +13,7 @@ const Header = () => {
 
   const pathName = usePathname();
   return (
-    <header className=" border-b border-b-hoverColor/50 bg-bodyColor text-white/80">
+    <header className="border-b border-b-hoverColor/50 bg-bodyColor text-white/80 sticky top-0 z-50">
       <Container className="py-5 flex justify-between items-center max-w-screen-xl  mx-auto p-4">
         <Logo title="Battulga" subtitle=".G" />
         <div className="hidden md:inline-flex items-center gap-7 text-sm uppercase tracking-wide font-medium">
