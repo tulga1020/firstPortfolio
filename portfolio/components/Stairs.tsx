@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "motion/react";
-import { exit } from "process";
 const Stairs = () => {
   const stairAnimation = {
     initial: {
