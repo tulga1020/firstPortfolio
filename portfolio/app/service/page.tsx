@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout";
-import Title from "@/components/Title";
+// import Title from "@/components/Title";
 import { serviceData } from "@/constants";
 
 const ServicesPage = () => {
