@@ -5,6 +5,7 @@ import SocialLinks from "@/components/SocialLinks";
 import Statistics from "@/components/Statistics";
 import Photo from "@/components/Photo";
 import HomeDescription from "@/components/HomeDescription";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,11 +23,20 @@ export default function Home() {
               Battulga Ganbaatar
             </h1>
           </div>
-          <div className="w-full h-[170px] md:h-[140px] relative mb-10">
+          <div className="w-full h-[170px] md:h-[140px] relative mb-10 md:mb-40 sm:mb-35">
             <HomeDescription />
           </div>
-          <Button className="w-64 bg-transparent rounded-full border border-lightSky/50 text-lightSky/80 hover:bg-hoverColor hover:text-black hover:bg-lightSky/100 hoverEffect h-11">
-            Download Resume <Download />{" "}
+
+          <Button className="w-64 bg-transparent rounded-full border border-lightSky/50 text-lightSky/80 hover:bg-hoverColor hover:text-black hover:bg-lightSky/100 hoverEffect h-11 sm:mt-12">
+            <Link
+              href={"/resume.pdf"}
+              target="_blank"
+              rel="noopener noreferer"
+              className="flex items-center justify-center gap-2"
+            >
+              {" "}
+              Download Resume <Download />{" "}
+            </Link>
           </Button>
           <SocialLinks />
           <Statistics />

@@ -8,7 +8,7 @@ interface Props {
 }
 const PageLayout = ({ children, className }: Props) => {
   return (
-    <Container className={cn(className)}>
+    <Container className={cn("w-full", className)}>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
