@@ -27,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${raleway.variable} ${jetbrains.variable} antialiased`}>
+      <body
+        className={`${raleway.variable} ${jetbrains.variable} antialiased  text-white/80`}
+      >
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
