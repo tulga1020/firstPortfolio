@@ -1,15 +1,11 @@
 import PageLayout from "@/components/PageLayout";
-// import Title from "@/components/Title";
 import { serviceData } from "@/constants";
 import { Separator } from "@radix-ui/react-select";
-import { ArrowUp } from "lucide-react";
-import Link from "next/link";
 
 const ServicesPage = () => {
   return (
     <section className="min-h-[80vh] flex flex-col justify-center w-full py-5 md:py-10">
       <PageLayout className="text-white">
-        {/* <Title>Service I Provide</Title> */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-12">
           {serviceData?.map((item) => (
             <div
